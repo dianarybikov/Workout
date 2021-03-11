@@ -13,7 +13,7 @@ lower_body = Workout.create(name:"Lower Body", difficulty: 4)
 full_body = Workout.create(name:"Full Body", difficulty: 5)
 cardio = Workout.create(name:"Cardio", difficulty: 3)
 abs = Workout.create(name:"Core", difficulty: 5)
-s_r = Workout.create(name:"Stretch and Recovery", difficulty: 1)
+s_r = Workout.create(name:"Relax", difficulty: 1)
 
 upper_body.exercises.create(name:"Push-Ups", description:"Start by getting on all fours, placing your hands at the width of your shoulders. Straight out your arms and legs. Lower your body until chest is near the floor, pause, and push your self up.", time_duration: 2, image:"https://images.vexels.com/media/users/3/132750/isolated/preview/44152c4d95f80db358fccd3497fbecea-woman-push-up-silhouette-by-vexels.png", primary_muscle:" Chest")
 upper_body.exercises.create(name:"Bicep Curl", description:"Stand straight with a dumbbell in each hand, your feet shoulder-width apart and hands by your sides.Squeeze the biceps and lift the dumbbells.Once the dumbbells are at shoulder level, slowly lower the arms to the starting position.", time_duration: 1, image:"https://i.pinimg.com/originals/af/ac/d1/afacd113f2df665d970481da971e2e20.jpg", primary_muscle:"Biceps")
