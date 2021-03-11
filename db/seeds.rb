@@ -15,6 +15,7 @@ cardio = Workout.create(name:"Cardio", difficulty: 3)
 abs = Workout.create(name:"Core", difficulty: 5)
 s_r = Workout.create(name:"Relax", difficulty: 1)
 
+
 upper_body.exercises.create(
     name: "Push-Ups", 
     description: "Start by getting on all fours, placing your hands at the width of your shoulders. Straight out your arms and legs. Lower your body until chest is near the floor, pause, and push your self up.",
