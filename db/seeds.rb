@@ -31,9 +31,9 @@ upper_body.exercises.create(
     )
 lower_body.exercises.create(
     name: "Squats", 
-    description: "Stand with feet a little wider than hip width, toes facing front.Drive your hips back—bending at the knees and ankles and pressing your knees slightly open—as you.Sit into a squat position while still keeping your heels and toes on the ground, chest up and shoulders back.Press into your heels and straighten legs to return to a standing upright position.", 
+    description: "Stand with feet a little wider than hip width. Drive your hips back—bending at the knees, ankles, and pressing your knees slightly open—as you. Sit into a squat position while still keeping your feet on the ground. Straighten legs to a standing upright position.", 
     time_duration: 3, 
-    image: "https://img.favpng.com/25/19/17/squat-exercise-physical-fitness-jumping-jack-fitness-centre-png-favpng-5AnkkFzyGJsmxCdVkqw7HUuu1.jpg", 
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIwZESJOJoZFLp_oizbmFXdI0TygcR0mnVQ&usqp=CAU", 
     primary_muscle: "Quads"
     )
 lower_body.exercises.create(
@@ -55,14 +55,14 @@ full_body.exercises.create(
     description: "Start by jumpimg off the ground and spread your legs, so you feet land wider than shoulder width apart, while takes your hands above your head", 
     time_duration: 4,
     image:"https://i0.wp.com/waterford.fyi/wp-content/uploads/2020/10/reminder-do-20-jumping-jacks.png?fit=800%2C800&ssl=1", 
-    primary_muscle: "Quads,Glutes, and Hip Flexors"
+    primary_muscle: "Quads, Glutes, and Hip Flexors"
     )
 cardio.exercises.create(
     name: "Jogging",
     description: "Jogging is a form of running at a slow or leisurely pace with less stress placed on the body than fast running.", 
     time_duration: 30, 
-    image:"https://cdn.imgbin.com/16/19/19/imgbin-running-jogging-jogging-sRy9b94rzxT16HFDE5m2V2ajj.jpg", 
-    primary_muscle: "Quads,Hamstrings,Glutes,Calves"
+    image:"https://images.squarespace-cdn.com/content/v1/5762e0ad2994ca8de6e783a9/1600725216374-7S1I7CH1UNBSOJHRPTV8/ke17ZwdGBToddI8pDm48kMR1yAHb8bPoH1-OdajP2rZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzbvthoX9IjomYJNoBj-i9EAwEsGPa3SMsVHAfnyHyoasb1UdTyIF5TA_NlWorOMS8/Untitled+design+-+2020-09-21T175126.614.png", 
+    primary_muscle: "Quads, Hamstrings, Glutes, and Calves"
     )
 cardio.exercises.create(
     name: "Jumping Squat", 
@@ -90,11 +90,11 @@ s_r.exercises.create(
     description: "Begin on your hands and knees in table pose, with a neutral spine. As you inhale and move into cow pose, lift your sit bones upward, press your chest forward and allow your belly to sink. Lift your head, relax your shoulders away from your ears, and gaze straight ahead",
     time_duration: 1,
     image:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a140382-050e-4045-991c-e98eda0dedd6/db7no9x-65bd3e35-a347-419d-9f41-5c6d40a0c4e3.jpg/v1/fill/w_800,h_512,q_75,strp/the_stretching_cow_by_swinemouse_db7no9x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01MTIiLCJwYXRoIjoiXC9mXC8zYTE0MDM4Mi0wNTBlLTQwNDUtOTkxYy1lOThlZGEwZGVkZDZcL2RiN25vOXgtNjViZDNlMzUtYTM0Ny00MTlkLTlmNDEtNWM2ZDQwYTBjNGUzLmpwZyIsIndpZHRoIjoiPD04MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.18f0BJxVIle3j8FGMu5e63d2P8B_HENE4-IX-mgSCsk",
-    primary_muscle: "Hip Extensors,Hamstrings,Back"
+    primary_muscle: "Hip Extensors, Hamstrings, and Back"
     )
 s_r.exercises.create(
     name: "Bubble Bath and Mimosas",
-    description: "Fill your tub with water and add any soap of choice. To make Mimosa's pick a juice of choose and fill your glass 1/4th with it. Fill the rest of your glass with champagne.GET IN AND RELAX!",
+    description: " Fill your tub, make a mimosas. GET IN AND RELAX",
     time_duration: 40,
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg7LdI3SJ661wZDAFhn88wMKUTZGQhdMAscA&usqp=CAU",
     primary_muscle: "SCREW YOUR MUSCLES, IT'S TIME TO RELAX"
@@ -122,21 +122,21 @@ full_body.exercises.create(
     )
 cardio.exercises.create(
     name: " Jump Roping",
-    description: "Rope in hand, swing the rope around your body and jump everytime it hits the floor as it passes the floor.",
+    description: "Pick two friends to hold each end of the in rope, have them swing the rope around your body and jump everytime it hits the floor as it passes the floor.",
     time_duration: 4,
-    image: "https://www.pinclipart.com/picdir/middle/567-5676533_transparent-jumping-rope-clipart-jump-rope-sport-clipart.png",
-    primary_muscle: "Quad,Hamstrings, and Glutes"
+    image: "https://www.pngkey.com/png/detail/278-2785735_long-rope-game-kids-jumping-rope-png.png",
+    primary_muscle: "Quad, Hamstrings, and Glutes"
     )
 abs.exercises.create(
     name: "Planking",
     description: "Get in the pushup position, only put your forearms on the ground instead of your hands. Squeeze your glutes and tighten your abdominals.Keep a neutral neck and spine.Create a straight, strong line from head to toes – a plank, if you will. Hold that position.",
     time_duration: 1,
-    image:"https://www.pngfind.com/pngs/m/320-3201194_wood-plank-png-stock-photography-transparent-png.png",
+    image:"https://cdn-xi3mbccdkztvoept8hl.netdna-ssl.com/wp-content/uploads/watermarked/Plank_F_WorkoutLabs.png",
     primary_muscle: "Abdominals, Back, and Shoulders"
 )
 s_r.exercises.create(
     name: "DO NOT CODE!!!!",
-    description:" Put your computer down, leave it alone and enjoy your weekend and the SNOW!",
+    description:" Put your computer down, enjoy your weekend and the SNOW!",
     time_duration: 2880,
     image: "https://images.squarespace-cdn.com/content/v1/5f024ccc9fa198769d8942bf/1606462129799-ZM73ZEFM2CR8470RZEIN/ke17ZwdGBToddI8pDm48kNzZ-zcgtvZFpwwFWdpSltZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzlg5Tqb9EZIiG85Y8VxjAfHnJJVCJA4JbSnJWp23rlcE7c1C7EjjqVqCOQ7WdGJ40/Learn+Funny+Jokes+-+Abdominal+-+Color+Page.png",
     primary_muscle: "No Brain Power"
