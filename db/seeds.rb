@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 Exercise.destroy_all
 Workout.destroy_all
 
@@ -128,7 +121,7 @@ cardio.exercises.create(
     primary_muscle: "Quad, Hamstrings, and Glutes"
     )
 abs.exercises.create(
-    name: "Planking",
+    name: "Plank",
     description: "Get in the pushup position, only put your forearms on the ground instead of your hands. Squeeze your glutes and tighten your abdominals.Keep a neutral neck and spine.Create a straight, strong line from head to toes – a plank, if you will. Hold that position.",
     time_duration: 1,
     image:"https://cdn-xi3mbccdkztvoept8hl.netdna-ssl.com/wp-content/uploads/watermarked/Plank_F_WorkoutLabs.png",
